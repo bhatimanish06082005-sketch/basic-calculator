@@ -8,7 +8,7 @@ try:
           "3. DIVISION\n"
           "4. MULTIPLICATION\n")
 
-    cal = input("Enter operation name (e.g., ADDITION): ").strip().upper()
+    cal = input("Enter operation name: ").strip().upper()
 
     if cal == "ADDITION":
         ans = num1 + num2
