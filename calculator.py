@@ -3,11 +3,11 @@ try:
     num1=int(input("etnter the first number"))
     num2=int(input("etnter the second number"))
 
-    print("CHOOSE OPERATION TO PERFORM",
-          "1).ADDITION",
-          "2).SUBTRACTION",
-          "3).DIVISION",
-          "4).MULTIPLICATION"
+    print("CHOOSE OPERATION TO PERFORM: \n",
+          "1. ADDITION\n",
+          "2. SUBTRACTION\n",
+          "3. DIVISION\n",
+          "4. MULTIPLICATION\n"
                           )
     
     cal=input().strip().lower()
